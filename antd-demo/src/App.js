@@ -4,11 +4,13 @@ import './App.less';
 import React from 'react';
 import { Button } from 'antd';
 
-function App() {
+function AppHome() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button type='primary'>Button </Button>
+        <Button type='primary'>自定义按钮</Button>
+        <a href='#/login'>进入登录页面</a>
+        <a href='#/demo'>进入demo页面</a>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -26,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppHome;
