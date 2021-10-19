@@ -39,14 +39,6 @@
       "git add"
     ]
   },
-  "eslintConfig": {
-    "extends": "react-app",
-    "rules": {
-      "no-undef": "off",
-      "no-restricted-globals": "off",
-      "no-unused-vars": "off"
-    }
-  },
   "engines": {
     "node": ">=8.0.0"
   }
