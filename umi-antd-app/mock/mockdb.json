@@ -1,0 +1,74 @@
+{
+    "music": [
+        { 
+          "id": 1, 
+          "name": "High歌", 
+          "author": "黄龄" ,
+          "publish_time": 1530538214436
+        },
+        { 
+            "id": 2, 
+            "name": "底线", 
+            "author": "黄宗泽" ,
+            "publish_time": 1530138212236
+        },
+        { 
+            "id": 3,
+            "name": "平凡之路", 
+            "author": "朴树" ,
+            "publish_time": 1530138215536
+        }
+    ],
+   "user": [
+        {
+        "guid": "056c5b2d-1818-4518-9eb0-b752bc1d1de6",
+        "age": 25,
+        "name": "Estella Velez",
+        "gender": "female",
+        "phone": "+1 (857) 415-2728",
+        "address": "556 Ryerson Street, Blanco, Arizona, 8424",
+        "registered": "2016-06-01T11:01:46 -08:00",
+        "favoriteFruit": "banana"
+        },
+        {
+        "guid": "d287cb48-97ac-4e74-8d51-784bba3e0ffb",
+        "age": 21,
+        "name": "Sherri Frost",
+        "gender": "female",
+        "phone": "+1 (993) 414-3402",
+        "address": "569 Coyle Street, Islandia, Iowa, 9071",
+        "registered": "2019-05-29T03:55:17 -08:00",
+        "favoriteFruit": "banana"
+        },
+        {
+        "guid": "aec80a91-f822-4559-94f6-2bac2ff62779",
+        "age": 36,
+        "name": "Carolyn Garrett",
+        "gender": "female",
+        "phone": "+1 (977) 471-3747",
+        "address": "317 Dank Court, Welda, Indiana, 7536",
+        "registered": "2018-11-08T03:00:23 -08:00",
+        "favoriteFruit": "apple"
+        },
+        {
+        "guid": "a0bdb461-7f8c-4d87-9bfe-d682fc22b635",
+        "age": 36,
+        "name": "Sanders Mcdonald",
+        "gender": "male",
+        "phone": "+1 (861) 529-3725",
+        "address": "201 Hamilton Avenue, Statenville, Maine, 4082",
+        "registered": "2014-02-16T07:02:40 -08:00",
+        "favoriteFruit": "banana"
+        },
+        {
+        "guid": "e13ff384-859e-4ae3-953a-a9fd662f67b1",
+        "age": 22,
+        "name": "Bridgette Hawkins",
+        "gender": "female",
+        "phone": "+1 (809) 412-3671",
+        "address": "204 Adams Street, Martinsville, Georgia, 1977",
+        "registered": "2020-02-24T11:34:31 -08:00",
+        "favoriteFruit": "strawberry"
+        }
+  ] 
+}

@@ -5,6 +5,7 @@
     "build": "umi build",
     "test": "umi test",
     "lint": "eslint --ext .js src mock tests",
+    "jsonmock": "node_modules\\.bin\\json-server --watch mock\\mockdb.json --port 3005",
     "precommit": "lint-staged"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
+    "json-server": "^0.16.1",
     "lint-staged": "^7.2.2",
     "react-test-renderer": "^16.7.0",
     "umi": "^2.7.0",
