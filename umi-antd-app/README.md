@@ -23,3 +23,7 @@ yarn start
 
     npm i json-server@^0.16.1 --save-dev
     node_modules\.bin\json-server --watch mock\mockdb.json --port 3005
+
+
+    umi 版本过低 升级到 3 的版本
+    
