@@ -1,4 +1,32 @@
 import axios from 'axios'
+import GlobalConfig from './../../config/config'
+// eslint-disable-next-line no-unused-vars
+
+console.log('(这个环境取的值没有生效) ', process.env)
+
+const enableMock = true;
+const BASE_API = enableMock? "http://127.0.0.1:3005": "http://127.0.0.1:8000"
+
+const RequestType = {
+    GET: 'GET',
+    POST: 'POST',
+    PUT: 'PUT',
+    DELETE: 'Delete',
+};
+
+// eslint-disable-next-line no-unused-vars
+class RequestParam{
+
+    constructor(){
+       this.url=null
+       this.path=null
+       this.param=null
+       this.requestType=RequestType.GET
+    }
+
+} 
+
+
 
 /**
  *
@@ -20,6 +48,7 @@ class HttpRequest {
     return config
   }
   interceptors (instance) {
+    console.log('interceptors--instance', instance.interceptors.request);
     instance.interceptors.request.use(config => {
       // 后期jwt认证是采用
       // const token = sessionStorage.getItem('token')
@@ -44,8 +73,13 @@ class HttpRequest {
     })
   }
   request (options) {
-    const instance = axios.create()
+    const instance = axios.create({
+      baseURL: BASE_API + options['path'],
+      timeout: 5000,
+      timeoutErrorMessage: '温馨提示,请求超时!!!'
+    })
     options = Object.assign(this.getInsideConfig(), options)
+    console.log('request>>>>>>>>>>>>', options)
     this.interceptors(instance)
     return instance(options)
   }

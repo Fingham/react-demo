@@ -1,4 +1,4 @@
-const routes = [
+const GlobalRoute = [
   {
     path: '/',
     component: '../layouts/index',
@@ -11,8 +11,9 @@ const routes = [
       { path: '/pages/system/userDetail', component: 'system/userDetail' },
       { path: '/pages/system/role', component: 'system/role' },
       { path: '/pages/system/batchAdd', component: 'system/batchAdd' },
+      { path: '/pages/music/musicA', component: 'music/musicA' },
     ],
   },
 ];
 
-export default routes;
+export default GlobalRoute;

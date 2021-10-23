@@ -1,8 +1,11 @@
-import routes from './routes'
+import GlobalRoute from './routes'
 
-export default {
+const backendUrl = 'http://127.0.0.1:8080';
+const backendMockUrl = 'http://127.0.0.1:3005';
+
+const GlobalConfig = {
   treeShaking: true,
-  routes,
+  routes: GlobalRoute,
   // "theme": {
   //   "primary-color": "#1DA57A",
   // },
@@ -29,3 +32,7 @@ export default {
     ],
   ],
 };
+
+console.log('GlobalConfig===>>>>>', GlobalConfig)
+
+export default GlobalConfig;

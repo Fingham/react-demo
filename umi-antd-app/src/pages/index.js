@@ -15,6 +15,7 @@ export default function() {
         <li><a href="/pages/system/user">用户列表</a></li>
         <li><a href="/pages/system/role">角色列表</a></li>
         <li><a href="/pages/system/batchAdd">batchAdd</a></li>
+        <li><a href="/pages/music/musicA">新增music</a></li>
       </ul>
     </div>
   );
