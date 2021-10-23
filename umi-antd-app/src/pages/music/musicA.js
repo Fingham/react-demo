@@ -4,6 +4,8 @@ import { Table, Tag, Card, Affix, message, Modal, Button } from 'antd';
 import {list } from './../../services/music'
 
 import {CustomTextInput, FjhConstomTextInput} from './CustomTextInput'
+// eslint-disable-next-line no-unused-vars
+import { Comment, CommentList } from './CustomTransferComp';
 
 export default class MusicBiz extends Component{
 
@@ -27,6 +29,7 @@ export default class MusicBiz extends Component{
             <CustomTextInput/>
             <input type="text" />            
             <FjhConstomTextInput />
+            <Comment>ddd</Comment>
         </div>);
     }
 
